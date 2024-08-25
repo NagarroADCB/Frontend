@@ -11,7 +11,7 @@ function App() {
         const result = await axios.get(`http://127.0.0.1:8000/`);
         setResponse(result.data);  // Set the response data to state
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching data', error);
       }
     };
 
