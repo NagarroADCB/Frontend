@@ -8,8 +8,8 @@ function App() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const result = await axios.get(`http://127.0.0.1:8000/`);
-        setResponse(result.data);  // Set the response data to state
+        //const result = await axios.get(`http://127.0.0.1:8000/`);
+        setResponse("Hello from React");  // Set the response data to state
       } catch (error) {
         console.error('Error fetching data', error);
       }
