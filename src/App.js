@@ -11,7 +11,7 @@ function App() {
 
       <main className="App-main">
         {/* Your existing eligibility check code here */}
-        Don’t prefer to call? Let's chat.
+        <h1>Don’t prefer to call? Let's chat.</h1>
         <Chatbot /> {/* Add the Chatbot component here */}
       </main>
     </div>
